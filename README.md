@@ -1,4 +1,4 @@
-# 👋 你好，我是 MCsmallbee
+# 👋 你好，我是 MCsmallbee   ![Profile Views](https://komarev.com/ghpvc/?username=MCsmallbee&style=flat-square)
 
 ## 你现在正在观看……
 
@@ -17,7 +17,8 @@
 
 ## 🛠️ 技术栈
 
-[![VS Code](https://img.shields.io/badge/-VS%20Code-0078D4?style=flat-square&logo=visual-studio-code&logoColor=white)](https://code.visualstudio.com/)
+[![Visual Studio Code](https://img.shields.io/badge/-VS%20Code-0078D4?style=flat-square&logo=visual-studio-code&logoColor=white)](https://code.visualstudio.com/)
+[![Visual Studio](https://img.shields.io/badge/-Visual%20Studio-574ab0?style=flat-square&logo=visual-studio&logoColor=white)](https://code.visualstudio.com/)
 [![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
 [![QML](https://img.shields.io/badge/-QML-41CD52?style=flat-square&logo=qt&logoColor=white)](https://doc.qt.io/qt-6/qml-first-steps.html)
 [![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)](https://developer.mozilla.org/)
@@ -36,7 +37,6 @@
 
 ---
 <div>
-</br>
   <em>如果这个主页让你笑了 —— 那我的目的就达到了。</em>
   <br />
   <sub>© 2026 MCsmallbee · 用 ❤️ 和大量复制粘贴写就</sub>
