@@ -1,19 +1,5 @@
 # 👋 你好，我是 MCsmallbee   ![Profile Views](https://komarev.com/ghpvc/?username=MCsmallbee&style=flat-square)
 
-<div align="center">
-<table>
-  <tr>
-    <td align="center" width="50%">
-      <img src="/github-metrics.svg" alt="Profile" width="100%">
-    </td>
-    <td align="center" width="50%">
-      <img src="/metrics.plugin.isocalendar.svg" alt="Isocalendar" width="100%"><br>
-      <img src="/metrics.plugin.languages.svg" alt="Languages" width="100%">
-    </td>
-  </tr>
-</table>
-</div>
-
 ## 你现在正在观看……
 
 一个 **初中生、代码写得不多但 bug 提得不少、一手写就成屎山**的萌新开发者的主页。
@@ -51,6 +37,27 @@
 
 <div>
   <em>如果这个主页让你笑了 —— 那我的目的就达到了。</em>
-  <br />
+  <br/>
   <sub>© 2026 MCsmallbee · 用 ❤️ 和大量复制粘贴写就</sub>
+</div>
+<br/>
+<div align="center">
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <img src="/github-metrics.svg" alt="Profile" width="100%">
+    </td>
+    <td align="center" width="50%">
+      <img src="/metrics.plugin.isocalendar.svg" alt="Isocalendar" width="100%"><br>
+      <img src="/metrics.plugin.languages.svg" alt="Languages" width="100%">
+    </td>
+  </tr>
+</table>
+</div>
+<div>
+  <picture width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MCsmallbee/MCsmallbee/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MCsmallbee/MCsmallbee/output/github-contribution-grid-snake.svg">
+    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/MCsmallbee/MCsmallbee/output/github-contribution-grid-snake.svg" width="100%">
+  </picture>
 </div>
