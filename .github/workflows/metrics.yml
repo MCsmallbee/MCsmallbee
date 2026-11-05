@@ -1,8 +1,8 @@
-name: Metrics
+name: Metrics & Snake
 
 on:
   schedule:
-    - cron: "0 */0.6 * * *"
+    - cron: "0 */1 * * *"   # 每 1 小时跑一次（合法写法）
   workflow_dispatch:
   push:
     branches: ["master", "main"]
@@ -12,6 +12,8 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+    timeout-minutes: 10
+
     steps:
       # 1. 个人信息（左列）
       - uses: lowlighter/metrics@v3.34
@@ -22,7 +24,6 @@ jobs:
           filename: github-metrics.svg
           config_timezone: Asia/Shanghai
           base: header, activity, community, repositories, metadata
-          # 只要个人信息头部，不要右侧杂项
           base_hide: comments, discussions, issues, pullrequests, sponsorships
 
       # 2. 半年度日历（右上）
@@ -37,7 +38,7 @@ jobs:
           plugin_isocalendar_duration: half-year
           config_timezone: Asia/Shanghai
 
-      # 3. 语言活动（右下）🈷️
+      # 3. 语言活动（右下）
       - uses: lowlighter/metrics@v3.34
         with:
           token: ${{ secrets.METRICS_TOKEN }}
@@ -51,12 +52,22 @@ jobs:
           plugin_languages_ignored: html, css, tex, less, dockerfile, makefile, shell
           plugin_languages_details: percentage
           config_timezone: Asia/Shanghai
-    # 4. 贪吃蛇动画（底部）
-      - uses: Platane/snk@v3
+
+      # 4. 贪吃蛇动画（生成到 dist 目录）
+      - name: generate github contribution snake
+        uses: Platane/snk@v3
         with:
-          github_user_name: ${{ github.repository_owner }}
+          github_user_name: MCsmallbee
           outputs: |
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
             dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9&color_background=#aaaaaa
-      
+
+      # 5. 把 dist 推到 output 分支（供 README / GitHub Pages 使用）
+      - name: push snake to output branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
