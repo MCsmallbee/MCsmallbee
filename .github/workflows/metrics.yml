@@ -10,15 +10,27 @@ on:
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
-    environment:
-      name: production
     permissions:
       contents: write
     steps:
+      # 1. 总览图
       - uses: lowlighter/metrics@v3.34
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           committer_token: ${{ secrets.GITHUB_TOKEN }}
+          use_prebuilt_image: yes
           filename: github-metrics.svg
           config_timezone: Asia/Shanghai
           base: header, activity, community, repositories, metadata
+
+      # 2. 半年度 3D 日历
+      - uses: lowlighter/metrics@v3.34
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          use_prebuilt_image: yes
+          base: ""
+          filename: metrics.plugin.isocalendar.svg
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: half-year
+          config_timezone: Asia/Shanghai
