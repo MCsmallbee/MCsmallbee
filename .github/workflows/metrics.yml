@@ -15,9 +15,10 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: lowlighter/metrics@v3.34
+      - uses: MCsmallbee/metrics@v3.34
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           committer_token: ${{ secrets.GITHUB_TOKEN }}
+          use_prebuilt_image: yes        # 关键：fork 默认关，手动打开
           filename: github-metrics.svg
           config_timezone: Asia/Shanghai
