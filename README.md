@@ -1,5 +1,19 @@
 # 👋 你好，我是 MCsmallbee   ![Profile Views](https://komarev.com/ghpvc/?username=MCsmallbee&style=flat-square)
 
+<div align="center">
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <img src="/github-metrics.svg" alt="Profile" width="100%">
+    </td>
+    <td align="center" width="50%">
+      <img src="/metrics.plugin.isocalendar.svg" alt="Isocalendar" width="100%"><br>
+      <img src="/metrics.plugin.languages.svg" alt="Languages" width="100%">
+    </td>
+  </tr>
+</table>
+</div>
+
 ## 你现在正在观看……
 
 一个 **初中生、代码写得不多但 bug 提得不少、一手写就成屎山**的萌新开发者的主页。
@@ -35,7 +49,6 @@
 [![博客](https://img.shields.io/badge/博客-blog.smallbee.xyz-7b61ff?style=flat-square)](https://blog.smallbee.xyz)
 [![B站](https://img.shields.io/badge/Bilibili-小蜂--MCsmallbee-00A1D6?style=flat-square&logo=bilibili)](https://b23.tv/1umtmtw)
 
----
 <div>
   <em>如果这个主页让你笑了 —— 那我的目的就达到了。</em>
   <br />
