@@ -15,11 +15,10 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: MCsmallbee/metrics@v3.34
+      - uses: lowlighter/metrics@v3.34
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           committer_token: ${{ secrets.GITHUB_TOKEN }}
-          use_prebuilt_image: yes
           filename: github-metrics.svg
           config_timezone: Asia/Shanghai
           base: header, activity, community, repositories, metadata
