@@ -21,23 +21,10 @@
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="279.3532526089218" height="8" fill="#44a51c"/>
-                    <rect mask="url(#languages-bar)" x="279.3532526089218" y="0" width="180.64674739107815" height="8" fill="#3572A5"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="285.66636639095896" height="8" fill="#3572A5"/>
+                    <rect mask="url(#languages-bar)" x="285.66636639095896" y="0" width="174.33363360904102" height="8" fill="#44a51c"/>
                 </svg>
                 <div class="row fill-width">
-                    <section>
-                        <div class="field language details">
-                            <div class="field">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                    <path fill="#44a51c" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
-                                </svg>
-                                QML
-                            </div>
-                            <small>
-                                <div>60.73%</div>
-                            </small>
-                        </div>
-                    </section>
                     <section>
                         <div class="field language details">
                             <div class="field">
@@ -47,7 +34,20 @@
                                 Python
                             </div>
                             <small>
-                                <div>39.27%</div>
+                                <div>62.1%</div>
+                            </small>
+                        </div>
+                    </section>
+                    <section>
+                        <div class="field language details">
+                            <div class="field">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                    <path fill="#44a51c" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
+                                </svg>
+                                QML
+                            </div>
+                            <small>
+                                <div>37.9%</div>
                             </small>
                         </div>
                     </section>
