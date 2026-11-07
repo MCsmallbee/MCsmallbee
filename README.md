@@ -41,16 +41,16 @@
   <sub>© 2026 MCsmallbee · 用 ❤️ 和大量复制粘贴写就</sub>
 </div>
 <br/>
-<div align="center">
-<table>
-  <tr>
-    <td align="center" width="50%">
-      <img src="/github-metrics.svg" alt="Profile" width="100%">
-    </td>
-    <td align="center" width="50%">
-      <img src="/metrics.plugin.isocalendar.svg" alt="Isocalendar" width="100%"><br>
-      <img src="/metrics.plugin.languages.svg" alt="Languages" width="100%">
-    </td>
-  </tr>
-</table>
+
+<div style="display:flex; flex-wrap:wrap; justify-content:center; gap:16px;">
+
+  <div style="flex:1 1 300px; min-width:300px;">
+    <img src="/github-metrics.svg" width="100%">
+  </div>
+
+  <div style="flex:1 1 300px; min-width:300px;">
+    <img src="/metrics.plugin.isocalendar.svg" width="100%"><br>
+    <img src="/metrics.plugin.languages.svg" width="100%">
+  </div>
+
 </div>
